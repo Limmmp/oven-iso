@@ -1,10 +1,17 @@
-# Изометрическая печь — пиксель-арт из Blender
+<div align="center">
 
+<img src="sheet.png" alt="Изометрическая печь">
+
+# Изометрическая печь
+
+**Процедурная модель в Blender → ортографический рендер → пиксель-арт спрайты в ограниченной палитре.**
+
+<img src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white" alt="Blender"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Pillow-3776AB?style=flat-square" alt="Pillow">
+
+</div>
+
+<!-- header:end -->
 Пайплайн «процедурная 3D-модель → изометрические спрайты»: печь с четырьмя стадиями прокачки и героем-кадром строится скриптом в Blender, рендерится ортографической камерой и пикселизуется в ограниченную палитру.
-
-| Стадия 1 | Стадия 2 | Стадия 3 | Стадия 4 |
-|---|---|---|---|
-| ![](sprites/oven_lvl1_x4.png) | ![](sprites/oven_lvl2_x4.png) | ![](sprites/oven_lvl3_x4.png) | ![](sprites/oven_lvl4_x4.png) |
 
 ## Как это устроено
 
